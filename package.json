@@ -1,0 +1,33 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "A basic web crawler to help me get used to JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterrrock2/web-crawler.git"
+  },
+  "author": "Peter Rock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peterrrock2/web-crawler/issues"
+  },
+  "homepage": "https://github.com/peterrrock2/web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "verbose": true,
+    "silent": false,
+    "reporters": [
+      "default"
+    ]
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
